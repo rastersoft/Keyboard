@@ -34,7 +34,7 @@
       +----+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+---+----+
       |Shi.|32 |1d |1b |06 |19 |05 |11 |10 |36 |37 |38 |  Shift   |
       +----+---++--+-+-+---+---+---+---+---+--++---+---++----+----+
-      |Ctrl|Win |Alt |                        |AlGr|Win |Menu|Ctrl|
+      |Ctrl|Win |Alt |         SPACE          |AlGr|Win |Menu|Ctrl|
       +----+----+----+------------------------+----+----+----+----+
 
   The ANSI layout is identical except that key 0x31 is above (rather

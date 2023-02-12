@@ -34,6 +34,62 @@
 //================================================================================
 //  Keyboard
 
+// Letters
+#define KEY_A             0x8C
+#define KEY_B             0x8D
+#define KEY_C             0x8E
+#define KEY_D             0x8F
+#define KEY_E             0x90
+#define KEY_F             0x91
+#define KEY_G             0x92
+#define KEY_H             0x93
+#define KEY_I             0x94
+#define KEY_J             0x95
+#define KEY_K             0x96
+#define KEY_L             0x97
+#define KEY_M             0x98
+#define KEY_N             0x99
+#define KEY_O             0x9A
+#define KEY_P             0x9B
+#define KEY_Q             0x9C
+#define KEY_R             0x9D
+#define KEY_S             0x9E
+#define KEY_T             0x9F
+#define KEY_U             0xA0
+#define KEY_V             0xA1
+#define KEY_W             0xA2
+#define KEY_X             0xA3
+#define KEY_Y             0xA4
+#define KEY_Z             0xA5
+
+// Normal numbers
+#define KEY_0             0xA6
+#define KEY_1             0xA7
+#define KEY_2             0xA8
+#define KEY_3             0xA9
+#define KEY_4             0xAA
+#define KEY_5             0xAB
+#define KEY_6             0xAC
+#define KEY_7             0xAD
+#define KEY_8             0xAE
+#define KEY_9             0xAF
+
+// Symbols
+#define KEY_SPACE         0xCC
+#define KEY_TILDE         0xBD
+#define KEY_MINUS         0xB5
+#define KEY_EQUAL         0xB6
+#define KEY_LEFT_BRACE    0xB7
+#define KEY_RIGHT_BRACE   0xB8
+#define KEY_SEMICOLON     0xBB
+#define KEY_QUOTE         0xBC
+#define KEY_BACKSLASH     0xB9
+#define KEY_NON_US_BS     0xEC
+#define KEY_COMMA         0xBE
+#define KEY_PERIOD        0xBF
+#define KEY_SLASH         0xC0
+
+
 // Modifiers
 #define KEY_LEFT_CTRL     0x80
 #define KEY_LEFT_SHIFT    0x81
@@ -109,6 +165,11 @@
 #define KEY_F22           0xF9
 #define KEY_F23           0xFA
 #define KEY_F24           0xFB
+
+// Multimedia keys
+#define KEY_MEDIA_MUTE    0x88
+#define KEY_MEDIA_VOL_INC 0x89
+#define KEY_MEDIA_VOL_DEC 0x8A
 
 // Supported keyboard layouts
 extern const uint8_t KeyboardLayout_de_DE[];

@@ -93,6 +93,20 @@ size_t Keyboard_::press(uint8_t k)
 	uint8_t i;
 	if (k >= 136) {			// it's a non-printing key (not a modifier)
 		k = k - 136;
+		switch(k) {
+		// use values 0-4 for special scancodes that are too big to fit
+		case 0:
+			k = 0x7F; // Mute
+			break;
+		case 1:
+			k = 0x80: // Volume up
+			break;
+		case 2:
+			k = 0x81: // Volume down
+			break;
+		default:
+			break;
+		}
 	} else if (k >= 128) {	// it's a modifier key
 		_keyReport.modifiers |= (1<<(k-128));
 		k = 0;
